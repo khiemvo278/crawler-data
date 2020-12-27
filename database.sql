@@ -62,9 +62,9 @@ CREATE TABLE IF NOT EXISTS smart_easy_travel.tourist_feedback (
 CREATE TABLE IF NOT EXISTS smart_easy_travel.tourist_area (
 	id  SMALLINT(255) AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL,
+    address VARCHAR(255) NOT NULL,
     description TEXT NOT NULL,
 	image_path VARCHAR(255) DEFAULT NULL,
-    service TEXT NOT NULL,
     PRIMARY KEY (id)
 );
 
